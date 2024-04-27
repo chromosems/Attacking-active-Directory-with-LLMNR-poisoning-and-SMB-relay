@@ -57,7 +57,7 @@
 - <img width="291" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/9d9f9f54-6997-439b-a25e-92068e14f969">
 - I also added whoami for more confirmations
 - <img width="291" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/0db45fc0-29d5-4fce-91d1-d9fd70a2b536">
-## Step Gaining shell Access with Metaspoilt
+## Step Gaining shell Access with Metasploit
 - with enumaration i used metaspoilt >psexec > exploit/windows/smb/psexec, using this command to  executing commands on remote Windows systems. It leverages the Windows SMB (Server Message Block) protocol to authenticate and execute commands on remote systems
 - <img width="327" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/bed3f620-4064-4fae-aa34-c6f840f1d0d7">
 - Next searched for options and notice the payload, first i update   the payload
