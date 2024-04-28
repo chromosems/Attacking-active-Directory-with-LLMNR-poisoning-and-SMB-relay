@@ -4,7 +4,7 @@
  
 ## Objective
  LLMNR poisoning involves intercepting and tampering with LLMNR requests and responses on a local network. The primary objective is to redirect network traffic intended for resolving hostnames to an attacker-controlled system and the implication here by poisoning LLMNR responses, attackers can impersonate legitimate network resources, such as servers or other network devices, leading to various security risks.
- SMB attacks targeting Active Directory aim to exploit vulnerabilities in the SMB protocol implementation or misconfigurations within the AD environment to compromise domain controllers which result to severe consequences for the network and security intergrity further more mitigating the attacks was key to the study
+ SMB attacks targeting Active Directory aim to exploit vulnerabilities in the SMB protocol implementation or misconfigurations within the AD environment to compromise domain controllers which result to severe consequences for network and security integrity and mitigation
  - <img width="582" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/473afa52-139b-4001-aa26-5139be3c4da3">
  *Ref 1:  Diagram of the labset up used for the attack*
 ### Skills Learned
@@ -18,11 +18,11 @@
 - nmapping used too identify smbhost
 
 ### Tools Used
-- metaspoilt to execute exppoilts to shell access .
+- Metasploit to execute vulnerabilities to shell access .
 - Responder to exploit weakness.
 - Hashcat used for cracking passwords.
 
-## Step 1 LLMNR Poisoning
+## Step1 LLMNR Poisoning
 - I eth0 specifies the network interface to use for listening and capturing network traffic. In this case, "eth0" refers to the Ethernet interface. You may need to replace "eth0" with the appropriate network interface on your system.
 - W informs responder to perform LLMNR and NBT-TS poisoning, d enables HTTP mode
 - <img width="412" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/014c85a6-e677-4aeb-97fb-67ddf85729d1">
