@@ -27,7 +27,7 @@
 - W informs responder to perform LLMNR and NBT-TS poisoning, d enables HTTP mode
 - <img width="412" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/014c85a6-e677-4aeb-97fb-67ddf85729d1">
 *Ref 2: the screen shot shows the out of the command and notice both the LLMNR is ON as well as HTTP server which are significant for the attack, and now responder is listening for a connection*
-- Now the attacker is listening for the event will then start up the Punisher machine under fcastle user in the MARVEL domain and call out the attacker IP from fcastle machine
+- Now the attacker machine is listening for the event will then start up the Punisher machine under fcastle user in the MARVEL domain and call out the attacker IP from fcastle machine
 - <img width="489" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/cb6284f0-d43d-4efc-8f72-83c52382655f">
  *Ref 3: ones you quick search the attacker IP address  it will prompt network credential login simply ignore those and immidiately check the attack machine for response*
  - Ones that connection has been established a hash will be generated
