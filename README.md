@@ -30,7 +30,7 @@
 - Now the attacke machine is waiting for the events to occur, will then start up the Punisher machine under fcastle user in the MARVEL domain and call out the attacker IP from fcastle machine
 - <img width="489" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/cb6284f0-d43d-4efc-8f72-83c52382655f">
  *Ref 3: Onces you quick search the attacker IP address  it will prompt network credential login simply ignore those and immediately check the attack machine for response*
- - Ones that connection has been established a hash will be generated
+ - Onces that connection has been established ahash will be generated
  - <img width="337" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/4b9f5f36-bf28-4a6f-b32f-755edaa01fd9">
  - With the given hash, next step is cracking the hash using hashcat but first identifying the type of hashcat hence will use grep NTLM thus network protocol v2
  - <img width="291" alt="image" src="https://github.com/chromosems/Attacking-active-Directory-with-LLMNR-poisoning-and-SMB-replay/assets/44053943/6bad1e34-2b63-4245-82a3-bcf1893227f7">
